@@ -15,13 +15,9 @@ function App() {
           <Navbar />
         </GridItem>
         <Show above="lg">
-          <GridItem area="aside" bg="papayawhip">
-            Aside
-          </GridItem>
+          <GridItem area="aside">Aside</GridItem>
         </Show>
-        <GridItem area="main" bg="gold">
-          Main
-        </GridItem>
+        <GridItem area="main">Main</GridItem>
       </Grid>
       <nav></nav>
       <aside></aside>
